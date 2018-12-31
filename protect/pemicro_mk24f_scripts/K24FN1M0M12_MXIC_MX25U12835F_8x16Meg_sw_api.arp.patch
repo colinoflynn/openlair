@@ -1,0 +1,65 @@
+--- "C:\\PEMicro\\PROGACMP\\supportFiles_ARM\\FlashAlgorithms_External_SPI_ARMP\\Generalplus_GPR25L12845E_8x16Meg_sw_spi.arp"	2015-04-30 17:22:42.000000000 -0300
++++ K24FN1M0M12_MXIC_MX25U12835F_8x16Meg_sw_spi.arp	2018-02-22 09:26:56.000000000 -0400
+@@ -1,12 +1,27 @@
+ ;version 1.00, 03/15/2014, Copyright P&E Microcomputer Systems, www.pemicro.com [Generalplus_GPR25L12845E_sw_spi_m0]
+-;device Generalplus, GPR25L12845E, 8x16Meg, desc=sw_spi
++;device MXIC, MX25U12835F, 8x16Meg, desc=sw_spi
+ ;begin_cs device=$00000000, length=$01000000, ram=$20000000
+ ;
+ ;******************************************************************************
+ ;Disable Watchdog Timer, if one exists and is enabled at Reset
++WRITE_LONG=4005200E/1FFFFF00/ ; dc32 0x4005200E      ;wdog unlock address
++WRITE_LONG=40052000/1FFFFF04/ ; dc32 0x40052000      ;wdog control_h
++WRITE_LONG=500CF85F/1FFFFF08/ ; ldr  r5,w_unlock_loc ;get wdog unlock address 
++WRITE_LONG=600CF85F/1FFFFF0C/ ; ldr  r6,w_control_h  ;get wdog control address
++WRITE_LONG=5820F24C/1FFFFF10/ ; mov  r8,#0xC520      ;get constants
++WRITE_LONG=1928F64D/1FFFFF14/ ; mov  r9,#0xD928
++WRITE_LONG=0A02F04F/1FFFFF18/ ; mov  r10,#0x0002
++WRITE_LONG=8000F8A5/1FFFFF1C/ ; strh r8,[r5]         ;unlock wdog
++WRITE_LONG=9000F8A5/1FFFFF20/ ; strh r9,[r5]
++WRITE_WORD=BF00/1FFFFF24/     ; nop                  ;timing
++WRITE_LONG=A000F8A6/1FFFFF26/ ; strh r10,[r6]        ;turn wdog off
++WRITE_WORD=BE00/1FFFFF2A/     ; bkpt #0x0 
++SET_PC_AND_RUN=1FFFFF08/      ; disable software watchdog
++
+ ;
+ ;******************************************************************************
+ ;Set up system clock source and frequency if different from defaults
++WRITE_LONG=00041982/40048038/ ;scgc5=portd,portc clock on
+ ;
+ ;******************************************************************************
+ ;Turn on clock distribution and power to needed microcontroller modules
+@@ -14,9 +29,19 @@
+ ;******************************************************************************
+ ;Set up serial part /WP and /HOLD to the inactive high state if necessary
+ ;
++WRITE_LONG=00000143/4004B048/ ;Set pin as port ptc18
++WRITE_LONG=00040000/400FF094/ ;Set pin as port ptc18 as output
++WRITE_LONG=00040000/400FF080/ ; Turn ON regulator output
++
++
+ ;******************************************************************************
+ ;Set up Ports, Data Direction, and Mapping as necessary
+ ;
++WRITE_LONG=00000143/4004C000/ ;Set pin as port ptd0 - /ss
++WRITE_LONG=00000143/4004C004/ ;Set pin as port ptd1 - clk
++WRITE_LONG=00000143/4004C008/ ;Set pin as port ptd2 - sdo
++WRITE_LONG=00000143/4004C00C/ ;Set pin as port ptd3 - sdi (TO SPI sdo)
++WRITE_LONG=00000007/400FF0D4/ ;Set portc pins 0, 1, and 2 as outputs
+ ;******************************************************************************
+ ;Enter SPI signal port addresses and pin numbers for the processor pins, either 
+ ; by filling in the symbolic hex parameter values in the ;PARAM statements below 
+@@ -30,6 +55,13 @@
+ ;PARAM=5/aaaaaaaa/                 ;SPI_MOSI port address
+ ;PARAM=6/eeffgghh/                 ;pin#s MOSI=ee,MISO=ff,/SS=gg,CLK=hh 
+ ;
++
++PARAM=2/400FF0C0/ ;SPI_CLK pin Port - ptd1 - clk
++PARAM=3/400FF0C0/ ;SPI_/SS pin Port - ptd0 - /ss
++PARAM=4/400FF0D0/ ;SPI_MOSI pin Port - ptd2 - sd0
++PARAM=5/400FF0C0/ ;SPI_MISO pin Port - ptd3 - sdi 
++PARAM=6/02030001/ ;port pin number definitions
++
+ ;end_cs
+ REQUIRES_PROG_VERSION=5.00/        ;Or newer
+ PROGRAMMING_ALSO_DOES_VERIFY
