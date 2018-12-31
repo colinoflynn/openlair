@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : C:\Users\colin\dropbox\engineering\research\targets\nest_protect\open-nest-protect\adapter_board\adapter_altium_src\nest_jtag_serial.PcbDoc
+Date         : 30/12/2018
+Time         : 7:55:54 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 2025milsx2210mils
+    Components on board, 7
+count : 2
