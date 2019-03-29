@@ -88,66 +88,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EITCDHHR
 
-[GeneratedDocument1]
-DocumentPath=OUTPUT\FILES\NC Drill\nest_jtag_serial.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=OUTPUT\FILES\NC Drill\nest_jtag_serial.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.REP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=OUTPUT\FILES\Gerber\nest_jtag_serial.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=OUTPUT\FILES\NC Drill\nest_jtag_serial.TXT
-DItemRevisionGUID=
-
 [Parameter1]
 Name=PrjLicense
 Value=<Select License>
@@ -738,61 +678,31 @@ OutputName4=Export STEP
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Ansoft Neutral
-OutputName5=Ansoft Neutral (AutoPCB)
+OutputType5=ExportPARASOLID
+OutputName5=Export PARASOLID
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ExportPARASOLID
-OutputName6=Export PARASOLID
+OutputType6=ExportVRML
+OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=ExportVRML
-OutputName7=Export VRML
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
-OutputType8=HyperLynx
-OutputName8=HyperLynx (AutoPCB)
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=Orcad v7 Capture Design
-OutputName9=Orcad v7 Capture Design (AutoSCH)
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=P-CAD ASCII
-OutputName10=P-CAD ASCII (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=P-CAD V16 Schematic Design
-OutputName11=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Save As/Export PCB
-OutputName12=Save As/Export PCB
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Save As/Export Schematic
-OutputName13=Save As/Export Schematic
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=SiSoft
-OutputName14=SiSoft (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Specctra Design PCB
-OutputName15=Specctra Design PCB
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
