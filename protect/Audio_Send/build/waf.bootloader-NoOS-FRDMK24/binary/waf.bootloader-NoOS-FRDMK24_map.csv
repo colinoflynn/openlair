@@ -1,0 +1,168 @@
+Memory Area, Module, Name, Size, Address, Decimal Address, Filename, See bottom for collated totals
+,WWD, text.irq, 28, 0x00000400, 1024, build/waf.bootloader-NoOS-FRDMK24/libraries/WWD_NoOS_Interface.a(noos.o)
+,Other, text.irq, 120, 0x0000041c, 1052, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_stdio.o)
+,Other, text.irq, 24, 0x00000494, 1172, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_unhandled_isr.o)
+,platform, text._start, 220, 0x000004ac, 1196, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/../../ARM_CM4/crt0_GCC.o
+,Interrupt Vectors, text.SDHC_IRQHandler, 2, 0x00000588, 1416, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.I2S0_Tx_IRQHandler, 2, 0x0000058a, 1418, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.I2S0_Rx_IRQHandler, 2, 0x0000058c, 1420, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA0_IRQHandler, 2, 0x0000058e, 1422, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA1_IRQHandler, 2, 0x00000590, 1424, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA2_IRQHandler, 2, 0x00000592, 1426, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA3_IRQHandler, 2, 0x00000594, 1428, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA4_IRQHandler, 2, 0x00000596, 1430, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA5_IRQHandler, 2, 0x00000598, 1432, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA6_IRQHandler, 2, 0x0000059a, 1434, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA7_IRQHandler, 2, 0x0000059c, 1436, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA8_IRQHandler, 2, 0x0000059e, 1438, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA9_IRQHandler, 2, 0x000005a0, 1440, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA10_IRQHandler, 2, 0x000005a2, 1442, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA11_IRQHandler, 2, 0x000005a4, 1444, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA12_IRQHandler, 2, 0x000005a6, 1446, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA13_IRQHandler, 2, 0x000005a8, 1448, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA14_IRQHandler, 2, 0x000005aa, 1450, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA15_IRQHandler, 2, 0x000005ac, 1452, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DMA_Error_IRQHandler, 2, 0x000005ae, 1454, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.MCM_IRQHandler, 2, 0x000005b0, 1456, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.FTFE_IRQHandler, 2, 0x000005b2, 1458, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.Read_Collision_IRQHandler, 2, 0x000005b4, 1460, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.LVD_LVW_IRQHandler, 2, 0x000005b6, 1462, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.LLWU_IRQHandler, 2, 0x000005b8, 1464, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.WDOG_EWM_IRQHandler, 2, 0x000005ba, 1466, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.RNG_IRQHandler, 2, 0x000005bc, 1468, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.I2C0_IRQHandler, 2, 0x000005be, 1470, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.I2C1_IRQHandler, 2, 0x000005c0, 1472, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.SPI0_IRQHandler, 2, 0x000005c2, 1474, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.SPI1_IRQHandler, 2, 0x000005c4, 1476, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART0_LON_IRQHandler, 2, 0x000005c6, 1478, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART0_RX_TX_IRQHandler, 2, 0x000005c8, 1480, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART0_ERR_IRQHandler, 2, 0x000005ca, 1482, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART1_RX_TX_IRQHandler, 2, 0x000005cc, 1484, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART1_ERR_IRQHandler, 2, 0x000005ce, 1486, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART2_RX_TX_IRQHandler, 2, 0x000005d0, 1488, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART2_ERR_IRQHandler, 2, 0x000005d2, 1490, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART3_RX_TX_IRQHandler, 2, 0x000005d4, 1492, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART3_ERR_IRQHandler, 2, 0x000005d6, 1494, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.ADC0_IRQHandler, 2, 0x000005d8, 1496, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CMP0_IRQHandler, 2, 0x000005da, 1498, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CMP1_IRQHandler, 2, 0x000005dc, 1500, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.FTM0_IRQHandler, 2, 0x000005de, 1502, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.FTM1_IRQHandler, 2, 0x000005e0, 1504, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.FTM2_IRQHandler, 2, 0x000005e2, 1506, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CMT_IRQHandler, 2, 0x000005e4, 1508, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.RTC_IRQHandler, 2, 0x000005e6, 1510, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.RTC_Seconds_IRQHandler, 2, 0x000005e8, 1512, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.PIT0_IRQHandler, 2, 0x000005ea, 1514, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.PIT1_IRQHandler, 2, 0x000005ec, 1516, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.PIT2_IRQHandler, 2, 0x000005ee, 1518, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.PIT3_IRQHandler, 2, 0x000005f0, 1520, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.PDB0_IRQHandler, 2, 0x000005f2, 1522, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.USB0_IRQHandler, 2, 0x000005f4, 1524, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.USBDCD_IRQHandler, 2, 0x000005f6, 1526, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.Reserved71_IRQHandler, 2, 0x000005f8, 1528, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DAC0_IRQHandler, 2, 0x000005fa, 1530, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.MCG_IRQHandler, 2, 0x000005fc, 1532, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.LPTMR0_IRQHandler, 2, 0x000005fe, 1534, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.PORTE_IRQHandler, 2, 0x00000600, 1536, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.SWI_IRQHandler, 2, 0x00000602, 1538, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.SPI2_IRQHandler, 2, 0x00000604, 1540, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART4_RX_TX_IRQHandler, 2, 0x00000606, 1542, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART4_ERR_IRQHandler, 2, 0x00000608, 1544, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART5_RX_TX_IRQHandler, 2, 0x0000060a, 1546, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.UART5_ERR_IRQHandler, 2, 0x0000060c, 1548, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CMP2_IRQHandler, 2, 0x0000060e, 1550, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.FTM3_IRQHandler, 2, 0x00000610, 1552, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.DAC1_IRQHandler, 2, 0x00000612, 1554, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.ADC1_IRQHandler, 2, 0x00000614, 1556, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.I2C2_IRQHandler, 2, 0x00000616, 1558, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CAN0_ORed_Message_buffer_IRQHandler, 2, 0x00000618, 1560, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CAN0_Bus_Off_IRQHandler, 2, 0x0000061a, 1562, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CAN0_Error_IRQHandler, 2, 0x0000061c, 1564, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CAN0_Tx_Warning_IRQHandler, 2, 0x0000061e, 1566, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CAN0_Rx_Warning_IRQHandler, 2, 0x00000620, 1568, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,Interrupt Vectors, text.CAN0_Wake_Up_IRQHandler, 2, 0x00000622, 1570, build/waf.bootloader-NoOS-FRDMK24/Modules/./WICED/platform/MCU/MK24F12/platform_vector_table.o
+,App, text.load_program, 70, 0x00000624, 1572, build/waf.bootloader-NoOS-FRDMK24/libraries/App_WICED_Bootloader_FRDMK24.a(bootloader.o)
+,App, text.main, 80, 0x0000066a, 1642, build/waf.bootloader-NoOS-FRDMK24/libraries/App_WICED_Bootloader_FRDMK24.a(bootloader.o)
+,Startup Stack & Link Script fill, fill, 2, 0x000006ba, 1722, build/waf.bootloader-NoOS-FRDMK24/libraries/App_WICED_Bootloader_FRDMK24.a(bootloader.o)
+,platform, text.platform_init_peripheral_irq_priorities, 48, 0x000006bc, 1724, build/waf.bootloader-NoOS-FRDMK24/libraries/Platform_FRDMK24.a(platform.o)
+,platform, text.platform_init_external_devices, 2, 0x000006ec, 1772, build/waf.bootloader-NoOS-FRDMK24/libraries/Platform_FRDMK24.a(platform.o)
+,platform, text.platform_get_button_press_time, 4, 0x000006ee, 1774, build/waf.bootloader-NoOS-FRDMK24/libraries/Platform_FRDMK24.a(platform.o)
+,platform, text.platform_get_factory_reset_button_time, 14, 0x000006f2, 1778, build/waf.bootloader-NoOS-FRDMK24/libraries/Platform_FRDMK24.a(platform.o)
+,WWD, text.NoOS_setup_timing, 32, 0x00000700, 1792, build/waf.bootloader-NoOS-FRDMK24/libraries/WWD_NoOS_Interface.a(noos.o)
+,WWD, text.NoOS_stop_timing, 28, 0x00000720, 1824, build/waf.bootloader-NoOS-FRDMK24/libraries/WWD_NoOS_Interface.a(noos.o)
+,WWD, text.platform_init_rtos_irq_priorities, 32, 0x0000073c, 1852, build/waf.bootloader-NoOS-FRDMK24/libraries/WWD_NoOS_Interface.a(noos.o)
+,Other, text.platform_gpio_irq_manager_init, 20, 0x0000075c, 1884, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_stdio.o)
+,Other, text.wiced_waf_is_elf_segment_load, 24, 0x00000770, 1904, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_waf_common.o)
+,Other, text.wiced_waf_app_area_erase, 102, 0x00000788, 1928, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_waf_common.o)
+,Other, text.wiced_waf_app_set_boot, 54, 0x000007ee, 2030, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_waf_common.o)
+,Other, text.wiced_waf_app_load, 110, 0x00000824, 2084, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_waf_common.o)
+,Other, text.wiced_waf_start_app, 8, 0x00000892, 2194, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_waf_common.o)
+,Other, text.wiced_waf_check_factory_reset, 26, 0x0000089a, 2202, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_waf_common.o)
+,Other, text.platform_mcu_reset, 32, 0x000008b4, 2228, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_init.o)
+,Other, text.platform_init_system_clocks, 2, 0x000008d4, 2260, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_init.o)
+,Other, text.platform_init_memory, 2, 0x000008d6, 2262, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_init.o)
+,Other, text.platform_init_mcu_infrastructure, 68, 0x000008d8, 2264, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_init.o)
+,Other, text.platform_start_app, 2, 0x0000091c, 2332, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(waf_platform.o)
+,Other, text.platform_erase_flash, 4, 0x0000091e, 2334, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(waf_platform.o)
+,Other, text.platform_write_flash_chunk, 4, 0x00000922, 2338, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(waf_platform.o)
+,Other, text.platform_erase_app_area, 2, 0x00000926, 2342, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(waf_platform.o)
+,Other, text.platform_load_app_chunk, 2, 0x00000928, 2344, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(waf_platform.o)
+,Other, text.wiced_dct_check_apps_locations_valid, 44, 0x0000092a, 2346, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_generate_crc_from_flash, 138, 0x00000956, 2390, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_copy_sflash, 60, 0x000009e0, 2528, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_finish_new_dct, 256, 0x00000a1c, 2588, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_validate_and_determine_version, 236, 0x00000b1c, 2844, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_erase_non_current_dct, 28, 0x00000c08, 3080, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_get_current_address, 384, 0x00000c24, 3108, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_read_with_copy, 38, 0x00000da4, 3492, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Startup Stack & Link Script fill, fill, 2, 0x00000dca, 3530, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_start_new_from_current, 172, 0x00000dcc, 3532, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_load, 144, 0x00000e78, 3704, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_write_boot_details, 124, 0x00000f08, 3848, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_write_app_location, 172, 0x00000f84, 3972, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_restore_factory_reset, 102, 0x00001030, 4144, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_get_app_header_location, 32, 0x00001096, 4246, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Startup Stack & Link Script fill, fill, 2, 0x000010b6, 4278, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,Other, text.wiced_dct_minimal_check_dct_header, 48, 0x000010b8, 4280, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_update.o)
+,Other, text.wiced_dct_minimal_check_dct_version, 68, 0x000010e8, 4328, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_update.o)
+,Other, text.wiced_apps_get_physical_address, 120, 0x0000112c, 4396, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_apps_common.o)
+,Other, text.wiced_apps_read, 168, 0x000011a4, 4516, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_apps_common.o)
+,crc, text.crc32, 44, 0x0000124c, 4684, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_crc.a(crc.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_read_status_register, 28, 0x00001278, 4728, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.generic_sflash_command, 116, 0x00001294, 4756, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_read_ID, 28, 0x00001308, 4872, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_read, 46, 0x00001324, 4900, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_write_status_register, 70, 0x00001352, 4946, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_write_enable, 106, 0x00001398, 5016, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.deinit_sflash, 8, 0x00001402, 5122, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.init_sflash, 82, 0x0000140a, 5130, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_platform_init, 6, 0x0000145c, 5212, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash_wiced.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_platform_send_recv, 6, 0x00001462, 5218, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash_wiced.o)
+,SPI_Flash_Library_FRDMK24, text.sflash_platform_deinit, 6, 0x00001468, 5224, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash_wiced.o)
+,SPI_Flash_Library_FRDMK24, fill, 2, 0x0000146e, 5230, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_SPI_Flash_Library_FRDMK24.a(spi_flash_wiced.o)
+,libc, text, 308, 0x00001470, 5232, c:/users/user/desktop/audio_send/tools/arm_gnu/win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memcpy.o)
+,libc, text.memset, 148, 0x000015a4, 5540, c:/users/user/desktop/audio_send/tools/arm_gnu/win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+,Other, rodata.DCT_section_offsets, 52, 0x00001638, 5688, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(wiced_dct_internal_common.o)
+,crc, rodata.crc32_table, 1024, 0x0000166c, 5740, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_crc.a(crc.o)
+,crc, fill, 4, 0x00001a6c, 6764, build/waf.bootloader-NoOS-FRDMK24/libraries/Lib_crc.a(crc.o)
+,Other, bss.gpio_irq_data, 192, 0x00000004, 4, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_stdio.o)
+,Startup Stack & Link Script fill, fill, 8000, 0x000000c4, 196, build/waf.bootloader-NoOS-FRDMK24/libraries/MK24F12.a(platform_stdio.o)
+
+waf.bootloader-NoOS-FRDMK24
+----------------------------------,--------,---------
+                                  ,        ,  Static 
+Module                            , Flash  ,   RAM   
+----------------------------------,--------,---------
+App                               ,       0,       0
+crc                               ,       0,       0
+Interrupt Vectors                 ,       0,       0
+libc                              ,       0,       0
+Other                             ,       0,       0
+platform                          ,       0,       0
+SPI_Flash_Library_FRDMK24         ,       0,       0
+Startup Stack & Link Script fill  ,       0,       0
+WWD                               ,       0,       0
+----------------------------------,--------,---------
+TOTAL (bytes)                     ,       0,       0
+----------------------------------,--------,---------
+

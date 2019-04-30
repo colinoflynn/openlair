@@ -1,0 +1,1 @@
+build/waf.bootloader-NoOS-FRDMK24/Modules/WICED/platform/MCU/MK24F12/peripherals/platform_mcu_powersave.o build/waf.bootloader-NoOS-FRDMK24/Modules/WICED/platform/MCU/MK24F12/peripherals/platform_gpio.o build/waf.bootloader-NoOS-FRDMK24/Modules/WICED/platform/MCU/MK24F12/peripherals/libraries/system_MK24F12.o  
