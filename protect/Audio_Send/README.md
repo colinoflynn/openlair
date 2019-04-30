@@ -22,7 +22,4 @@ README.txt         : WICED Studio high level README file (this file)
 version.txt        : Version of WICED Studio
 
 
-Getting Started
--------------------------------------------------------------------------------
-If you are unfamiliar with WICED Studio, please refer to the WICED Studio
-Quick Start Guide or Kit Guide found [here](https://community.cypress.com/docs/DOC-1016)
+
