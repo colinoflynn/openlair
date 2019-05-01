@@ -17,7 +17,7 @@ WICED Studio is structured as follows:
 
   Folder           |        Content
 -------------------|-----------------------
-<WICED Platform>   | High level folder for each supported platform
+WICED              | High level folder for each supported platform
 common             | Common apps, libraries, headers across bluetooth platforms
 drivers            | Drivers for USB serial converter
 test               | Tools provided for automation testing
