@@ -137,8 +137,10 @@ Unlike the rest of the SDK, the PORT functions don't set their respective clocks
 * SDHC0_DCLK: PTE2
 * PTC0: External REG_ON (must be set HIGH) - not necessarily internal REG_ON
 * PTC6: - Unsure, seems to be low (?) - maybe IRQ
+* PTB0: - OOB IRQ
 * PTB1: - Unsure, seems to be high (?) - maybe NRST
 * PTB9: - Unsure, need to check status
+
 
 ## Nest Layout Notes ##
 
